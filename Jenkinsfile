@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     stages {
-        stage('Hello') {
+        stage('POC') {
             steps {
-                echo 'Hello World from li040121 clone to li09292022'
+                echo 'Hello World'
             }
         }
         stage('Build') {
