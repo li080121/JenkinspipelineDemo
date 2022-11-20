@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Stage') {
             steps {
-                echo 'Hello World'
+                echo 'Hello World added payload URL'
             }
         }
         stage('Build') {
