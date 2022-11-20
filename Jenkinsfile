@@ -2,6 +2,11 @@ pipeline {
     agent any
 
     stages {
+        stage('Implementing') {
+            steps {
+                echo 'Hello World'
+            }
+        }
         stage('Stage') {
             steps {
                 echo 'Hello World'
