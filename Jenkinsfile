@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Implementing') {
             steps {
-                echo 'Hello World'
+                echo 'Hello World by github hook trigger for GITScm polling'
             }
         }
         stage('Stage') {
